@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <title>Ecommerce</title>
+</head>
+<body >
+    <header>
+        <div class="principal">
+            <div class="secundaria">
+                <div class="logo">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="lista">
+                    <ul>
+                        <li>Collections</li>
+                        <li>Men</li>
+                        <li>Women</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>    
+            </div>
+            <div class="perfil">
+                <div class="carrinho">
+                    <img src="images/icon-cart.svg" class="carrinho">
+                    <div class="score bomba">0</div>
+                </div>
+                <div class="imagem">
+                    <img src="images/image-avatar.png" >
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="tudo">
+        <div class="fotos">
+            <div class="grande">
+                <img src="images/image-product-1.jpg" class="grandeimagem">
+            </div>
+            <div class="fotospequenas">
+                <div class="pequenas">
+                    <img src="images/image-product-1-thumbnail.jpg" class="primeiro">
+                </div>
+                <div class="pequenas">
+                    <img src="images/image-product-2-thumbnail.jpg" class="pequeno">
+                </div>
+                <div class="pequenas">
+                    <img src="images/image-product-3-thumbnail.jpg" class="terceiro">
+                </div>
+                <div class="pequenas">
+                    <img src="images/image-product-4-thumbnail.jpg" class="quarto">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <h6 style="color: rgb(231, 124, 62);">SNEAKER COMPANY</h6>
+            <h2>Fall Limited Edition <br> Sneakers</h2>
+            <p>These low-profile Sneakers are your perfect casual wear <br> companion. Featuring a durable rubber outer sole, they'll <br> withstand everything the weather can offer.</p>
+            <div class="dolar"><span style="font-size: 25px; font-weight: bold;">$125.00 </span> <span style="background-color: rgba(172, 167, 167, 0.356);margin-left: 10px; color: orange;font-weight: 900;">50%</span>
+                <br><span style="color: rgb(173, 168, 168);"> $250.00</span>
+            </div>
+            <div class="buttons">
+                <div class="cinza"> 
+                    <img src="images/icon-minus.svg" class="er">
+                   <span class="conteudo">0</span>
+                    <img src="images/icon-plus.svg" class="er plus" style="cursor: pointer;"> 
+                </div>
+                <button style="padding: 10px;" class="botao"><img width="15px" src="images/icon-cart.svg" style="margin-right: 10px;">Add to cart </button>
+            </div>
+        </div>
+    </main>
+    <div class="overlay hidden"></div>
+    <div class="hardwork hidden">
+        <div class="minhas">
+            <div class="fechar" style="margin-bottom: 20px;">
+            <img src="images/icon-close.svg" style="width: 20px; margin-left: 380px; cursor: pointer; " class="close">
+            </div>
+            <img src="images/image-product-1.jpg">
+        </div>
+        <div class="cansado">
+            <div class="tuas">
+                <img src="images/image-product-1-thumbnail.jpg" style="border: 2px solid orange; opacity: 0.5;">
+            </div>
+            <div class="tuas">
+                <img src="images/image-product-2-thumbnail.jpg">
+            </div>
+            <div class="tuas">
+                <img src="images/image-product-3-thumbnail.jpg">
+            </div>
+            <div class="tuas">
+                <img src="images/image-product-4-thumbnail.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="oculto escondido">
+        <div class="cart">
+            <h5>Cart</h5>
+        </div>
+        <div class="palavras">Your cart is empty.</div>
+        <div class="information bomba1">
+            <div  style="display: flex;">
+                <img src="images/image-product-1-thumbnail.jpg" style="width: 50px; height: 50px; border-radius: 4px;">
+                <div style="margin-left: 5px;">
+                    Fall Limited Edition Sneakers  
+                    <p>$125.00 x 3 <span class="resultado" style="font-weight: bolder; color: black;"></span></p><div style="position: absolute; right: 0; margin-right: 25px; margin-top: -25px;"><img src="images/icon-delete.svg" class="undo" style="cursor: pointer;"></div>                   
+                </div>
+            </div>
+            <button style="background-color: rgb(231, 124, 62);" class="abrir" >Checkout</button>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
